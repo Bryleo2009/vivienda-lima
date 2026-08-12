@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0d1b2a" />
+  <meta name="description" content="Plan familiar para comprar vivienda en Lima: ahorro, créditos hipotecarios y oportunidades." />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Plan Casa · Bry + Tía</title>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">PLAN FAMILIAR · LIMA</p>
+      <h1>Comprar sin ahogarnos</h1>
+    </div>
+    <button id="refreshBtn" class="icon-btn" aria-label="Actualizar datos">↻</button>
+  </header>
+
+  <main>
+    <section class="hero card dark-card">
+      <div>
+        <span class="pill">Objetivo</span>
+        <h2>3+ dormitorios, con espacio de verdad</h2>
+        <p>Prioridad: casa multifamiliar en Los Olivos / SMP cercano. Alternativa: dúplex o depa de 3–4 dormitorios en Lima Moderna.</p>
+      </div>
+      <div class="hero-metrics">
+        <div><span>Ahorro actual</span><strong id="heroSavings">S/ 20,000</strong></div>
+        <div><span>Ingreso actual conjunto</span><strong id="heroIncome">S/ 5,130</strong></div>
+        <div><span>Ahorro mensual potencial</span><strong>S/ 1,400</strong></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <div><p class="eyebrow">ESCENARIOS</p><h2>¿Qué cambia si mi tía gana más?</h2></div>
+      </div>
+      <div id="scenarioCards" class="scenario-grid"></div>
+      <p class="hint">El salto de S/1,130 a S/1,600 no solo aumenta la cuota posible: también abre productos bancarios que exigen al menos S/1,500 por solicitante.</p>
+    </section>
+
+    <section class="card simulator">
+      <div class="section-heading compact">
+        <div><p class="eyebrow">SIMULADOR</p><h2>Jueguen con los números</h2></div>
+        <span class="status-dot">Referencial</span>
+      </div>
+
+      <div class="slider-grid">
+        <label>Tu ingreso neto <strong id="yourIncomeValue"></strong><input id="yourIncome" type="range" min="2500" max="8000" step="100" value="4000"></label>
+        <label>Ingreso de tu tía <strong id="auntIncomeValue"></strong><input id="auntIncome" type="range" min="1000" max="3500" step="50" value="1130"></label>
+        <label>Ahorro mensual total <strong id="monthlySavingValue"></strong><input id="monthlySaving" type="range" min="500" max="3500" step="100" value="1400"></label>
+        <label>Inicial que quieren poner <strong id="downPaymentValue"></strong><input id="downPayment" type="range" min="20000" max="140000" step="5000" value="60000"></label>
+      </div>
+
+      <div class="result-grid">
+        <article><span>Ingreso conjunto</span><strong id="combinedIncome"></strong></article>
+        <article><span>Cuota prudente (35%)</span><strong id="safePayment"></strong></article>
+        <article><span>Crédito estimado*</span><strong id="mortgageCapacity"></strong></article>
+        <article class="accent"><span>Vivienda objetivo</span><strong id="homeBudget"></strong></article>
+      </div>
+      <p class="fineprint">*Estimación a 30 años usando 7.5% TEA referencial. El banco puede aprobar menos o más según deudas, historial, edad, seguros, estabilidad laboral y tasación.</p>
+    </section>
+
+    <section>
+      <div class="section-heading"><div><p class="eyebrow">AHORRO</p><h2>¿Cuándo llegamos a la inicial?</h2></div></div>
+      <div class="card savings-card">
+        <div class="savings-summary">
+          <div><span>Ahorro total hoy</span><strong>S/ 20,000</strong></div>
+          <div><span>Colchón recomendado</span><strong>S/ 8,000</strong></div>
+          <div><span>Disponible para inicial hoy</span><strong>S/ 12,000</strong></div>
+        </div>
+        <div id="milestones" class="milestones"></div>
+        <p class="hint">El cálculo conserva S/8,000 como emergencia. La aportación de tu tía al ahorro puede configurarse indirectamente subiendo “ahorro mensual total” en el simulador.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading"><div><p class="eyebrow">CRÉDITOS</p><h2>Qué podemos intentar</h2></div></div>
+      <div id="creditCards" class="credit-list"></div>
+    </section>
+
+    <section class="card steps-card">
+      <div class="section-heading compact"><div><p class="eyebrow">CAMINO</p><h2>Orden correcto para no perder tiempo</h2></div></div>
+      <ol class="steps">
+        <li><b>Reporte SBS de ambos.</b><span>Confirmar deudas, líneas abiertas y clasificación antes de tocar un banco.</span></li>
+        <li><b>Boletas e ingresos.</b><span>Reunir sustento laboral de ambos; confirmar el ingreso neto real de tu tía.</span></li>
+        <li><b>Preevaluar primero.</b><span>Scotiabank Familiar ahora; BCP/Interbank cuando tu tía supere S/1,500; revisar BCP Joven si aplica por edad.</span></li>
+        <li><b>Definir tope de cuota.</b><span>No usar “lo máximo que presta el banco” como presupuesto. Mantener una cuota familiar sostenible.</span></li>
+        <li><b>Recién buscar y separar.</b><span>Para casas multifamiliares, revisar partida, declaratoria de fábrica, HR/PU y que los pisos construidos sean financiables.</span></li>
+        <li><b>Comparar TCEA.</b><span>Cuota con seguros, inicial, tasación, notaría y costos registrales. La TEA sola cuenta media historia, como siempre.</span></li>
+      </ol>
+    </section>
+
+    <section>
+      <div class="section-heading"><div><p class="eyebrow">MERCADO</p><h2>Oportunidades que encajan</h2></div><span id="lastUpdated" class="last-updated"></span></div>
+      <div class="filters" id="filters"></div>
+      <div id="propertyCards" class="property-list"></div>
+    </section>
+
+    <section class="card trend-card">
+      <div class="section-heading compact"><div><p class="eyebrow">LECTURA DEL MERCADO</p><h2>Lo que estamos viendo</h2></div></div>
+      <div id="trendList" class="trend-list"></div>
+    </section>
+
+    <section class="card update-card">
+      <div>
+        <p class="eyebrow">AUTOACTUALIZABLE</p>
+        <h2>¿Cómo se mantiene al día?</h2>
+        <p>La web lee <code>data/dashboard.json</code>. Incluí un script y un GitHub Action diario para revisar fuentes y actualizar el archivo cuando la publiques en GitHub Pages.</p>
+      </div>
+      <details>
+        <summary>Ver funcionamiento</summary>
+        <p>El script revisa las fuentes configuradas, conserva los últimos datos válidos si un portal bloquea el acceso y marca cambios de contenido. Las reglas bancarias siempre muestran enlace a la fuente oficial para validación final.</p>
+      </details>
+    </section>
+
+    <section class="sources-section">
+      <div class="section-heading"><div><p class="eyebrow">FUENTES</p><h2>De dónde sale todo esto</h2></div></div>
+      <div id="sources" class="sources"></div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">Inicio</a>
+    <a href="#" onclick="document.querySelector('.simulator').scrollIntoView({behavior:'smooth'});return false">Simular</a>
+    <a href="#" onclick="document.querySelector('.credit-list').scrollIntoView({behavior:'smooth'});return false">Créditos</a>
+    <a href="#" onclick="document.querySelector('.property-list').scrollIntoView({behavior:'smooth'});return false">Viviendas</a>
+  </nav>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name":"Plan Casa · Bry + Tía",
+  "short_name":"Plan Casa",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f4f3ee",
+  "theme_color":"#0d1b2a",
+  "icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
