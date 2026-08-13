@@ -50,7 +50,7 @@
       <div class="slider-grid">
         <label>Tu ingreso neto <strong id="yourIncomeValue"></strong><input id="yourIncome" type="range" min="2500" max="8000" step="100" value="4000"></label>
         <label>Ingreso de tu tía <strong id="auntIncomeValue"></strong><input id="auntIncome" type="range" min="1000" max="3500" step="50" value="1130"></label>
-        <label>Ahorro mensual total <strong id="monthlySavingValue"></strong><input id="monthlySaving" type="range" min="500" max="3500" step="100" value="1400"></label>
+        <label>Ahorro mensual adicional (fuera de junta) <strong id="monthlySavingValue"></strong><input id="monthlySaving" type="range" min="500" max="3500" step="100" value="1400"></label>
         <label>Inicial que quieren poner <strong id="downPaymentValue"></strong><input id="downPayment" type="range" min="20000" max="140000" step="5000" value="60000"></label>
       </div>
 
@@ -61,6 +61,43 @@
         <article class="accent"><span>Vivienda objetivo</span><strong id="homeBudget"></strong></article>
       </div>
       <p class="fineprint">*Estimación a 30 años usando 7.5% TEA referencial. El banco puede aprobar menos o más según deudas, historial, edad, seguros, estabilidad laboral y tasación.</p>
+    </section>
+
+    <section id="juntaSection" class="card junta-card">
+      <div class="section-heading compact">
+        <div><p class="eyebrow">JUNTA · AHORRO COLECTIVO</p><h2>¿Cuándo tenemos realmente el dinero?</h2></div>
+        <span class="status-dot">Editable</span>
+      </div>
+      <p class="junta-intro">Hoy los S/20,000 vienen de la junta: S/10,000 de cada uno. Aquí pueden poner las fechas reales, el número que le toca a cada uno y simular una segunda junta.</p>
+
+      <div class="junta-block">
+        <div class="junta-block-head"><div><p class="eyebrow">JUNTA ACTUAL</p><h3>La que termina aprox. en noviembre</h3></div><span id="currentJuntaStatus" class="mini-pill"></span></div>
+        <div class="form-grid">
+          <label>Aporte semanal por persona <span>S/ cada sábado</span><input id="juntaWeekly" type="number" min="20" step="10" value="200"></label>
+          <label>Inicio de la junta <span id="currentStartHint">estimado, corrígelo</span><input id="juntaStart" type="date"></label>
+          <label>Fin de la junta <span>último sábado</span><input id="juntaEnd" type="date"></label>
+          <label>Tu número / turno <span>si ya lo sabes</span><input id="juntaTurnBry" type="number" min="1" placeholder="Ej. 12"></label>
+          <label>Número / turno de tu tía <span>si ya lo sabe</span><input id="juntaTurnAunt" type="number" min="1" placeholder="Ej. 18"></label>
+        </div>
+        <label class="check-row"><input id="currentSavingsIncludesPayout" type="checkbox" checked><span>Los S/20,000 actuales ya incluyen lo cobrado en esta junta. No volver a sumarlos.</span></label>
+        <div id="currentJuntaResults" class="junta-results"></div>
+      </div>
+
+      <div class="junta-block next-junta">
+        <div class="junta-block-head"><div><p class="eyebrow">PRÓXIMA JUNTA</p><h3>Probar si realmente acelera los S/40k</h3></div><label class="switch"><input id="nextJuntaEnabled" type="checkbox" checked><span></span></label></div>
+        <div id="nextJuntaFields">
+          <div class="form-grid">
+            <label>Inicio de la próxima <span>primer sábado</span><input id="nextJuntaStart" type="date"></label>
+            <label>Fin de la próxima <span>último sábado</span><input id="nextJuntaEnd" type="date"></label>
+            <label>Tu número deseado <span>temprano = adelanta capital</span><input id="nextJuntaTurnBry" type="number" min="1" value="1"></label>
+            <label>Número deseado de tu tía <span>temprano = adelanta capital</span><input id="nextJuntaTurnAunt" type="number" min="1" value="2"></label>
+          </div>
+          <div id="nextJuntaResults" class="junta-results"></div>
+          <div id="juntaRecommendation" class="junta-recommendation"></div>
+        </div>
+      </div>
+
+      <p class="fineprint">La junta se modela como ahorro/adelanto sin rentabilidad: si cobran temprano, adelanta capital pero deja pagos pendientes. Los datos quedan guardados en este dispositivo.</p>
     </section>
 
     <section>
@@ -84,12 +121,13 @@
     <section class="card steps-card">
       <div class="section-heading compact"><div><p class="eyebrow">CAMINO</p><h2>Orden correcto para no perder tiempo</h2></div></div>
       <ol class="steps">
-        <li><b>Reporte SBS de ambos.</b><span>Confirmar deudas, líneas abiertas y clasificación antes de tocar un banco.</span></li>
-        <li><b>Boletas e ingresos.</b><span>Reunir sustento laboral de ambos; confirmar el ingreso neto real de tu tía.</span></li>
-        <li><b>Preevaluar primero.</b><span>Scotiabank Familiar ahora; BCP/Interbank cuando tu tía supere S/1,500; revisar BCP Joven si aplica por edad.</span></li>
-        <li><b>Definir tope de cuota.</b><span>No usar “lo máximo que presta el banco” como presupuesto. Mantener una cuota familiar sostenible.</span></li>
-        <li><b>Recién buscar y separar.</b><span>Para casas multifamiliares, revisar partida, declaratoria de fábrica, HR/PU y que los pisos construidos sean financiables.</span></li>
-        <li><b>Comparar TCEA.</b><span>Cuota con seguros, inicial, tasación, notaría y costos registrales. La TEA sola cuenta media historia, como siempre.</span></li>
+        <li><b>Registrar bien la junta actual.</b><span>Poner fecha real de inicio, fin y turnos. Los S/20,000 actuales ya son capital obtenido y todavía quedan aportes semanales hasta terminar.</span></li>
+        <li><b>Reporte SBS + boletas de ambos.</b><span>Confirmar deudas, líneas abiertas, clasificación e ingresos sustentables antes de pedir una evaluación.</span></li>
+        <li><b>Preevaluar Scotiabank Familiar.</b><span>Es la ruta conjunta que mejor encaja hoy con el sueldo básico de tu tía. Importante: la ficha oficial indica que Familiar no aplica con Plan Ahorro Hipotecario.</span></li>
+        <li><b>Evaluar BCP Ahorro Local para ti.</b><span>Tu ingreso supera el mínimo publicado y el plan permite demostrar capacidad con depósitos desde 4 meses; el ahorro puede terminar como inicial.</span></li>
+        <li><b>Antes de entrar a otra junta, mirar los turnos.</b><span>Si a ambos les toca temprano, puede adelantar S/20,000. Si les toca tarde, comparar contra ahorrar directamente o usar un plan bancario.</span></li>
+        <li><b>Si tu tía llega a S/1,600 sustentables.</b><span>Volver a cotizar BCP Compartido e Interbank Dúo, porque se abren alternativas que piden alrededor de S/1,500 por solicitante.</span></li>
+        <li><b>Recién separar una vivienda.</b><span>Con preaprobación, cuota máxima definida y revisión de partida, fábrica, HR/PU y tasación del inmueble.</span></li>
       </ol>
     </section>
 
@@ -124,7 +162,7 @@
 
   <nav class="bottom-nav">
     <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false">Inicio</a>
-    <a href="#" onclick="document.querySelector('.simulator').scrollIntoView({behavior:'smooth'});return false">Simular</a>
+    <a href="#" onclick="document.querySelector('#juntaSection').scrollIntoView({behavior:'smooth'});return false">Junta</a>
     <a href="#" onclick="document.querySelector('.credit-list').scrollIntoView({behavior:'smooth'});return false">Créditos</a>
     <a href="#" onclick="document.querySelector('.property-list').scrollIntoView({behavior:'smooth'});return false">Viviendas</a>
   </nav>
