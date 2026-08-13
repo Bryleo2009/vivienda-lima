@@ -1,0 +1,50 @@
+[
+  {
+    "title":"Dúplex 4 dormitorios · Av. Colombia 146",
+    "district":"Pueblo Libre","category":"Dúplex","type":"Usado","price":408000,"bedrooms":4,"area_m2":114,"parking":false,"multifamily":false,"score":5,
+    "why":"Dúplex en último piso, 4 dormitorios y 3 baños. Muy buen equilibrio entre precio, tamaño y Lima Moderna; verificar metraje registral.",
+    "listing_url":"https://www.adondevivir.com/propiedades/clasificado/veclapin-departamento-de-114-m-sup2--a.-c.-con-5-habitaciones-149253322.html",
+    "search_url":"https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html",
+    "image_url":"https://img10.naventcdn.com/avisos/111/01/49/25/18/78/360x266/1593545870.jpg?rapc=bXZhX2ltYWdl%3FisFirstImage%3Dtrue"
+  },
+  {
+    "title":"Dúplex 3 dormitorios · La Calera",
+    "district":"Surquillo","category":"Dúplex","type":"Usado","price":538000,"bedrooms":3,"area_m2":100,"parking":true,"multifamily":false,"score":4,
+    "why":"100 m², 3 baños, balcón y cochera. Ya exige una inicial/ingreso más fuerte.",
+    "listing_url":"https://www.adondevivir.com/propiedades/clasificado/veclapin-duplex-en-venta-con-vista-panoramica-en-surquillo-148695342.html",
+    "search_url":"https://www.adondevivir.com/departamentos-en-venta-en-surquillo-con-duplex-con-3-dormitorios.html",
+    "image_url":"https://img10.naventcdn.com/avisos/resize/111/01/48/69/51/35/1200x1200/1582683296.jpg?rapc=bXZhX2ltYWdl%3FisFirstImage%3Dtrue"
+  },
+  {
+    "title":"Casa 3 pisos · zona Chillón",
+    "district":"Los Olivos","category":"Casa","type":"Casa","price":336852,"bedrooms":4,"area_m2":105,"built_m2":220,"parking":true,"multifamily":true,"score":4,
+    "why":"Primer piso con tienda y vivienda; segundo piso con sala, cocina y 3 dormitorios; tercero semiconstruido. Muy interesante por precio.",
+    "listing_url":"https://urbania.pe/inmueble/clasificado/veclcain-venta-de-casa-en-los-olivos-lima-4-dormitorios-146507156",
+    "search_url":"https://urbania.pe/buscar/venta-de-casas-en-los-olivos--lima--lima?sort=low_price",
+    "image_url":"https://img10.naventcdn.com/avisos/resize/111/01/46/50/71/56/1200x1200/1533689620.jpg?isFirstImage=true"
+  },
+  {
+    "title":"3 dormitorios de estreno · Jr. Ayacucho 750",
+    "district":"Magdalena","category":"Departamento","type":"Estreno","price":455000,"bedrooms":3,"area_m2":73,"parking":false,"multifamily":false,"score":4,
+    "why":"Entrega inmediata, cocina cerrada, 3 dormitorios y documentación independizada. Cochera disponible aparte.",
+    "listing_url":"https://urbania.pe/inmueble/clasificado/veclapin-venta-de-departamento-en-san-felipe-magdalena-3-dormitorios-ascensor-149567293",
+    "search_url":"https://www.adondevivir.com/departamentos-en-magdalena-con-3-dormitorios-a-estrenar.html",
+    "image_url":"https://img10.naventcdn.com/avisos/resize/111/01/49/56/72/93/1200x1200/1600225546.jpg?isFirstImage=true"
+  },
+  {
+    "title":"Casa 2 pisos · Los Jazmines / Vipol",
+    "district":"SMP","category":"Casa","type":"Casa","price":525000,"bedrooms":5,"area_m2":120,"built_m2":215,"parking":false,"multifamily":true,"score":4,
+    "why":"El segundo piso puede usarse de forma semi-independiente y cuenta con proyección para un tercer nivel. Muy alineada con vivir + rentar.",
+    "listing_url":"https://www.adondevivir.com/propiedades/clasificado/veclcain-casa-en-venta-149435589.html",
+    "search_url":"https://www.adondevivir.com/casas-en-venta-en-san-martin-de-porres-ordenado-por-precio-ascendente.html",
+    "image_url":"https://img10.naventcdn.com/avisos/111/01/49/43/55/27/360x266/1597344804.jpg?rapc=bXZhX2ltYWdl%3FisFirstImage%3Dtrue"
+  },
+  {
+    "title":"Departamento 4 dormitorios · Av. Sucre",
+    "district":"Pueblo Libre","category":"Departamento","type":"Usado","price":525000,"bedrooms":4,"area_m2":110,"parking":true,"multifamily":false,"score":4,
+    "why":"110 m², 4 dormitorios y cochera. Tiene 30 años y no cuenta con ascensor, pero ofrece mucho espacio para Lima Moderna.",
+    "listing_url":"https://www.adondevivir.com/propiedades/clasificado/veclapin-departamento-04-dorm.-149730437.html",
+    "search_url":"https://www.adondevivir.com/departamentos-en-pueblo-libre-con-4-dormitorios.html",
+    "image_url":"https://img10.naventcdn.com/avisos/111/01/49/92/67/80/360x266/1607739797.jpg?rapc=bXZhX2ltYWdl%3FisFirstImage%3Dtrue"
+  }
+]
