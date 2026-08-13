@@ -1,5 +1,5 @@
 {
-  "updated_at": "12 ago 2026",
+  "updated_at": "13/08/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -12,130 +12,265 @@
       "label": "TÍA · SUELDO ACTUAL",
       "aunt_income": 1130,
       "summary": "Sirve para sumar capacidad, pero varias alternativas exigen S/1,500 por solicitante. Scotiabank Familiar es hoy el encaje público más claro.",
-      "bank_access": {"Scotia":"yes","BCP":"no","Interbank":"no","BBVA":"maybe"}
+      "bank_access": {
+        "Scotia": "yes",
+        "BCP": "no",
+        "Interbank": "no",
+        "BBVA": "maybe"
+      }
     },
     {
       "label": "TÍA · META > S/1,600",
       "aunt_income": 1600,
       "summary": "El ingreso familiar mejora y, sobre todo, se desbloquean BCP Compartido e Interbank Dúo si ambos cumplen la evaluación y requisitos restantes.",
-      "bank_access": {"Scotia":"yes","BCP":"yes","Interbank":"yes","BBVA":"maybe"}
+      "bank_access": {
+        "Scotia": "yes",
+        "BCP": "yes",
+        "Interbank": "yes",
+        "BBVA": "maybe"
+      }
     }
   ],
   "credits": [
     {
-      "bank":"Scotiabank","product":"Hipotecario Familiar","fit":"high","fit_label":"PRIMER INTENTO",
-      "one_liner":"Permite unir ingresos con una persona familiar/amiga; máximo 2 codeudores. La ficha oficial indica que no aplica Plan Ahorro Hipotecario.",
-      "income_rule":"Hipotecario publica ingreso mínimo S/1,000; Familiar exige evaluación crediticia por sustento de ingresos.",
-      "aunt_case":"Encaja como ruta conjunta con tu tía, sujeto a evaluación de ingresos; no se combina con Plan Ahorro.",
-      "financing":"Hasta 90%; hasta 30 años en el hipotecario.",
-      "apply":"Simular → dejar datos → asesor / agencia.",
-      "source":"https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"
+      "bank": "Scotiabank",
+      "product": "Hipotecario Familiar",
+      "fit": "high",
+      "fit_label": "PRIMER INTENTO",
+      "one_liner": "Permite unir ingresos con una persona familiar/amiga; máximo 2 codeudores. La ficha oficial indica que no aplica Plan Ahorro Hipotecario.",
+      "income_rule": "Hipotecario publica ingreso mínimo S/1,000; Familiar exige evaluación crediticia por sustento de ingresos.",
+      "aunt_case": "Encaja como ruta conjunta con tu tía, sujeto a evaluación de ingresos; no se combina con Plan Ahorro.",
+      "financing": "Hasta 90%; hasta 30 años en el hipotecario.",
+      "apply": "Simular → dejar datos → asesor / agencia.",
+      "source": "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"
     },
     {
-      "bank":"Scotiabank","product":"Plan Ahorro Hipotecario","fit":"medium","fit_label":"RUTA INDIVIDUAL",
-      "one_liner":"Permite demostrar capacidad de ahorro mensual mediante Meta Ahorro o depósitos mensuales, previa evaluación.",
-      "income_rule":"El banco define el monto mensual y plazo del ahorro según evaluación.",
-      "aunt_case":"No aplica dentro del Hipotecario Familiar; sirve como alternativa individual.",
-      "financing":"Luego de demostrar capacidad, se evalúa el hipotecario correspondiente.",
-      "apply":"Pedir evaluación de Plan Ahorro Hipotecario en Scotiabank.",
-      "source":"https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"
+      "bank": "Scotiabank",
+      "product": "Plan Ahorro Hipotecario",
+      "fit": "medium",
+      "fit_label": "RUTA INDIVIDUAL",
+      "one_liner": "Permite demostrar capacidad de ahorro mensual mediante Meta Ahorro o depósitos mensuales, previa evaluación.",
+      "income_rule": "El banco define el monto mensual y plazo del ahorro según evaluación.",
+      "aunt_case": "No aplica dentro del Hipotecario Familiar; sirve como alternativa individual.",
+      "financing": "Luego de demostrar capacidad, se evalúa el hipotecario correspondiente.",
+      "apply": "Pedir evaluación de Plan Ahorro Hipotecario en Scotiabank.",
+      "source": "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"
     },
     {
-      "bank":"BCP","product":"Hipotecario Compartido","fit":"medium","fit_label":"DESDE S/1,500",
-      "one_liner":"Evalúa los ingresos en conjunto, pero cada solicitante obtiene un crédito individual.",
-      "income_rule":"Ingreso bruto mínimo publicado: mayor a S/1,500.",
-      "aunt_case":"Con S/1,130 no cumple el umbral publicado; con >S/1,600 sí vale la preevaluación.",
-      "financing":"Hasta 90% del valor del inmueble.",
-      "apply":"Formulario web / agendar cita; DNI y sustento de ingresos.",
-      "source":"https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido"
+      "bank": "BCP",
+      "product": "Hipotecario Compartido",
+      "fit": "medium",
+      "fit_label": "DESDE S/1,500",
+      "one_liner": "Evalúa los ingresos en conjunto, pero cada solicitante obtiene un crédito individual.",
+      "income_rule": "Ingreso bruto mínimo publicado: mayor a S/1,500.",
+      "aunt_case": "Con S/1,130 no cumple el umbral publicado; con >S/1,600 sí vale la preevaluación.",
+      "financing": "Hasta 90% del valor del inmueble.",
+      "apply": "Formulario web / agendar cita; DNI y sustento de ingresos.",
+      "source": "https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido"
     },
     {
-      "bank":"BCP","product":"Hipotecario Ahorro Local","fit":"high","fit_label":"ÚTIL PARA BRY",
-      "one_liner":"Ahorra desde 4 meses para sustentar ingresos; lo ahorrado puede usarse como inicial.",
-      "income_rule":"Ingreso bruto mínimo publicado mayor a S/1,500.",
-      "aunt_case":"Con tu ingreso de S/4,000 puedes evaluarlo individualmente; tu tía necesitaría superar el mínimo si quisiera usar esta ruta por separado.",
-      "financing":"Publica financiamiento entre S/40,000 y S/550,000, sujeto a evaluación.",
-      "apply":"Formulario BCP / asesor; el banco define un plan de depósitos mensuales.",
-      "source":"https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp"
+      "bank": "BCP",
+      "product": "Hipotecario Ahorro Local",
+      "fit": "high",
+      "fit_label": "ÚTIL PARA BRY",
+      "one_liner": "Ahorra desde 4 meses para sustentar ingresos; lo ahorrado puede usarse como inicial.",
+      "income_rule": "Ingreso bruto mínimo publicado mayor a S/1,500.",
+      "aunt_case": "Con tu ingreso de S/4,000 puedes evaluarlo individualmente; tu tía necesitaría superar el mínimo si quisiera usar esta ruta por separado.",
+      "financing": "Publica financiamiento entre S/40,000 y S/550,000, sujeto a evaluación.",
+      "apply": "Formulario BCP / asesor; el banco define un plan de depósitos mensuales.",
+      "source": "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp"
     },
     {
-      "bank":"Interbank","product":"Hipotecario Dúo","fit":"medium","fit_label":"DESDE S/1,500 C/U",
-      "one_liner":"Dos personas compran juntas y pueden definir porcentajes de propiedad.",
-      "income_rule":"Cada codeudor debe acreditar mínimo S/1,500 mensuales.",
-      "aunt_case":"No con S/1,130; sí entra al umbral cuando supera S/1,500.",
-      "financing":"Cuota inicial tradicional desde 10%, sujeto a evaluación.",
-      "apply":"Solicitud hipotecaria / tienda Interbank.",
-      "source":"https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo"
+      "bank": "Interbank",
+      "product": "Hipotecario Dúo",
+      "fit": "medium",
+      "fit_label": "DESDE S/1,500 C/U",
+      "one_liner": "Dos personas compran juntas y pueden definir porcentajes de propiedad.",
+      "income_rule": "Cada codeudor debe acreditar mínimo S/1,500 mensuales.",
+      "aunt_case": "No con S/1,130; sí entra al umbral cuando supera S/1,500.",
+      "financing": "Cuota inicial tradicional desde 10%, sujeto a evaluación.",
+      "apply": "Solicitud hipotecaria / tienda Interbank.",
+      "source": "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo"
     },
     {
-      "bank":"BBVA","product":"Hipotecario BBVA","fit":"medium","fit_label":"CONSULTAR COTITULAR",
-      "one_liner":"Permite titular y/o cónyuge/cotitular; la relación exacta con una tía debe validarse con el banco.",
-      "income_rule":"Ingresos mínimos publicados desde S/1,500 netos, titular y/o cónyuge/cotitular.",
-      "aunt_case":"Posible, pero confirmar que acepten a la tía como cotitular para este producto.",
-      "financing":"Hasta 90% para primera vivienda; hasta 360 meses según producto.",
-      "apply":"Simulador / formulario / oficina.",
-      "source":"https://www.bbva.pe/personas/productos/prestamos/credito-hipotecario/hipotecario-bbva.html"
+      "bank": "BBVA",
+      "product": "Hipotecario BBVA",
+      "fit": "medium",
+      "fit_label": "CONSULTAR COTITULAR",
+      "one_liner": "Permite titular y/o cónyuge/cotitular; la relación exacta con una tía debe validarse con el banco.",
+      "income_rule": "Ingresos mínimos publicados desde S/1,500 netos, titular y/o cónyuge/cotitular.",
+      "aunt_case": "Posible, pero confirmar que acepten a la tía como cotitular para este producto.",
+      "financing": "Hasta 90% para primera vivienda; hasta 360 meses según producto.",
+      "apply": "Simulador / formulario / oficina.",
+      "source": "https://www.bbva.pe/personas/productos/prestamos/credito-hipotecario/hipotecario-bbva.html"
     },
     {
-      "bank":"BCP","product":"Hipotecario Joven + fiador","fit":"medium","fit_label":"SI TIENES ≤35",
-      "one_liner":"Alternativa si el comprador tiene hasta 35 años y cuenta con fiador solidario sujeto a evaluación.",
-      "income_rule":"Comprador: ingresos > S/1,500 y hasta 35 años; fiador debe ser cliente BCP y pasar evaluación.",
-      "aunt_case":"Puede ser interesante aun con sueldo básico; confirmar parentesco y evaluación de la tía como fiadora.",
-      "financing":"Hasta 90%; de 4 a 25 años; primera vivienda.",
-      "apply":"BCP, producto Hipotecario Joven con fiador solidario.",
-      "source":"https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario"
+      "bank": "BCP",
+      "product": "Hipotecario Joven + fiador",
+      "fit": "medium",
+      "fit_label": "SI TIENES ≤35",
+      "one_liner": "Alternativa si el comprador tiene hasta 35 años y cuenta con fiador solidario sujeto a evaluación.",
+      "income_rule": "Comprador: ingresos > S/1,500 y hasta 35 años; fiador debe ser cliente BCP y pasar evaluación.",
+      "aunt_case": "Puede ser interesante aun con sueldo básico; confirmar parentesco y evaluación de la tía como fiadora.",
+      "financing": "Hasta 90%; de 4 a 25 años; primera vivienda.",
+      "apply": "BCP, producto Hipotecario Joven con fiador solidario.",
+      "source": "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario"
     }
   ],
   "properties": [
     {
-      "title":"Dúplex 4 dormitorios · ~114 m²","district":"Pueblo Libre","category":"Dúplex","type":"Usado","price":408000,"bedrooms":4,"area_m2":114,"parking":false,"multifamily":false,"score":5,
-      "why":"Muy buen equilibrio entre precio, tamaño y Lima Moderna. Verificar metraje registral y estado real.",
-      "source":"https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html"
+      "title": "Dúplex 4 dormitorios · ~114 m²",
+      "district": "Pueblo Libre",
+      "category": "Dúplex",
+      "type": "Usado",
+      "price": 408000,
+      "bedrooms": 4,
+      "area_m2": 114,
+      "parking": false,
+      "multifamily": false,
+      "score": 5,
+      "why": "Muy buen equilibrio entre precio, tamaño y Lima Moderna. Verificar metraje registral y estado real.",
+      "source": "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html"
     },
     {
-      "title":"Dúplex 3 dormitorios · La Calera","district":"Surquillo","category":"Dúplex","type":"Usado","price":537200,"bedrooms":3,"area_m2":100,"parking":false,"multifamily":false,"score":4,
-      "why":"Zona atractiva y 100 m²; ya entra en la parte alta del rango y exige mayor inicial/ingreso.",
-      "source":"https://www.adondevivir.com/departamentos-en-venta-en-surquillo-con-duplex-mas-de-3-banos.html"
+      "title": "Dúplex 3 dormitorios · La Calera",
+      "district": "Surquillo",
+      "category": "Dúplex",
+      "type": "Usado",
+      "price": 537200,
+      "bedrooms": 3,
+      "area_m2": 100,
+      "parking": false,
+      "multifamily": false,
+      "score": 4,
+      "why": "Zona atractiva y 100 m²; ya entra en la parte alta del rango y exige mayor inicial/ingreso.",
+      "source": "https://www.adondevivir.com/departamentos-en-venta-en-surquillo-con-duplex-mas-de-3-banos.html"
     },
     {
-      "title":"Casa 160 m² de terreno · Villa Los Ángeles","district":"Los Olivos","category":"Casa","type":"Casa","price":578000,"bedrooms":3,"area_m2":160,"parking":false,"multifamily":true,"score":4,
-      "why":"Más cara, pero el terreno y la posibilidad de redistribuir/crecer pueden justificarla frente a un depa pequeño.",
-      "source":"https://www.adondevivir.com/casas-en-venta-en-los-olivos-mas-de-3-dormitorios.html"
+      "title": "Casa 160 m² de terreno · Villa Los Ángeles",
+      "district": "Los Olivos",
+      "category": "Casa",
+      "type": "Casa",
+      "price": 578000,
+      "bedrooms": 3,
+      "area_m2": 160,
+      "parking": false,
+      "multifamily": true,
+      "score": 4,
+      "why": "Más cara, pero el terreno y la posibilidad de redistribuir/crecer pueden justificarla frente a un depa pequeño.",
+      "source": "https://www.adondevivir.com/casas-en-venta-en-los-olivos-mas-de-3-dormitorios.html"
     },
     {
-      "title":"Departamentos 3 dormitorios · oferta nueva","district":"Magdalena","category":"Departamento","type":"Nuevo / usado","price":424000,"bedrooms":3,"area_m2":73,"parking":false,"multifamily":false,"score":4,
-      "why":"Magdalena sigue mostrando entradas desde la franja baja de S/400k para 3 dormitorios, aunque los metrajes suelen ser compactos.",
-      "source":"https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios"
+      "title": "Departamentos 3 dormitorios · oferta nueva",
+      "district": "Magdalena",
+      "category": "Departamento",
+      "type": "Nuevo / usado",
+      "price": 424000,
+      "bedrooms": 3,
+      "area_m2": 73,
+      "parking": false,
+      "multifamily": false,
+      "score": 4,
+      "why": "Magdalena sigue mostrando entradas desde la franja baja de S/400k para 3 dormitorios, aunque los metrajes suelen ser compactos.",
+      "source": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios"
     },
     {
-      "title":"Casas 3 pisos · radar activo","district":"Los Olivos","category":"Casa","type":"Casa","price":450000,"bedrooms":4,"area_m2":120,"parking":true,"multifamily":true,"score":4,
-      "why":"Categoría objetivo: buscar acceso independiente al piso superior, cocina/baño propios y fábrica declarada.",
-      "source":"https://urbania.pe/buscar/casas-en-los-olivos--lima--lima?antiquity=20"
+      "title": "Casas 3 pisos · radar activo",
+      "district": "Los Olivos",
+      "category": "Casa",
+      "type": "Casa",
+      "price": 450000,
+      "bedrooms": 4,
+      "area_m2": 120,
+      "parking": true,
+      "multifamily": true,
+      "score": 4,
+      "why": "Categoría objetivo: buscar acceso independiente al piso superior, cocina/baño propios y fábrica declarada.",
+      "source": "https://urbania.pe/buscar/casas-en-los-olivos--lima--lima?antiquity=20"
     },
     {
-      "title":"Casa multifamiliar · radar límite Los Olivos","district":"SMP","category":"Casa","type":"Casa","price":430000,"bedrooms":5,"area_m2":120,"parking":false,"multifamily":true,"score":4,
-      "why":"SMP cercano a Los Olivos suele ofrecer más construcción por sol. Solo entra si la zona y documentación son buenas.",
-      "source":"https://www.adondevivir.com/casas-en-venta-en-san-martin-de-porres-mas-de-3-banos.html"
+      "title": "Casa multifamiliar · radar límite Los Olivos",
+      "district": "SMP",
+      "category": "Casa",
+      "type": "Casa",
+      "price": 430000,
+      "bedrooms": 5,
+      "area_m2": 120,
+      "parking": false,
+      "multifamily": true,
+      "score": 4,
+      "why": "SMP cercano a Los Olivos suele ofrecer más construcción por sol. Solo entra si la zona y documentación son buenas.",
+      "source": "https://www.adondevivir.com/casas-en-venta-en-san-martin-de-porres-mas-de-3-banos.html"
     }
   ],
   "trends": [
-    {"icon":"◎","title":"La junta sirve si el turno es temprano","text":"Con S/200 por persona cada sábado, una junta de 50 turnos entrega S/10,000 por número. Si ambos cobran temprano, adelanta S/20,000; si cobran tarde, funciona sobre todo como ahorro forzoso."},
-    {"icon":"↔","title":"Usado gana en metros","text":"En Lima Moderna, un usado de 3–4 dormitorios suele ofrecer bastante más área que un proyecto nuevo al mismo precio."},
-    {"icon":"⌂","title":"Casa multifamiliar puede generar renta","text":"En Los Olivos/SMP, un segundo piso realmente independiente puede ayudar a amortizar la hipoteca. No conviene depender de ese alquiler para sobrevivir a la cuota."},
-    {"icon":"↑","title":"S/1,600 de tu tía es un umbral útil","text":"El beneficio no es solo sumar S/470 de ingreso: permite intentar productos que publican S/1,500 mínimo por solicitante."},
-    {"icon":"!","title":"Los pisos deben existir también en papeles","text":"Para una casa de 2–3 niveles, revisar declaratoria de fábrica, partida y tasación. Una ampliación informal puede complicar el crédito."}
+    {
+      "icon": "◎",
+      "title": "La junta sirve si el turno es temprano",
+      "text": "Con S/200 por persona cada sábado, una junta de 50 turnos entrega S/10,000 por número. Si ambos cobran temprano, adelanta S/20,000; si cobran tarde, funciona sobre todo como ahorro forzoso."
+    },
+    {
+      "icon": "↔",
+      "title": "Usado gana en metros",
+      "text": "En Lima Moderna, un usado de 3–4 dormitorios suele ofrecer bastante más área que un proyecto nuevo al mismo precio."
+    },
+    {
+      "icon": "⌂",
+      "title": "Casa multifamiliar puede generar renta",
+      "text": "En Los Olivos/SMP, un segundo piso realmente independiente puede ayudar a amortizar la hipoteca. No conviene depender de ese alquiler para sobrevivir a la cuota."
+    },
+    {
+      "icon": "↑",
+      "title": "S/1,600 de tu tía es un umbral útil",
+      "text": "El beneficio no es solo sumar S/470 de ingreso: permite intentar productos que publican S/1,500 mínimo por solicitante."
+    },
+    {
+      "icon": "!",
+      "title": "Los pisos deben existir también en papeles",
+      "text": "Para una casa de 2–3 niveles, revisar declaratoria de fábrica, partida y tasación. Una ampliación informal puede complicar el crédito."
+    }
   ],
   "sources": [
-    {"label":"Scotiabank · Crédito Hipotecario / Familiar","url":"https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"},
-    {"label":"BCP · Hipotecario Ahorro Local","url":"https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp"},
-    {"label":"Scotiabank · Plan Ahorro Hipotecario","url":"https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"},
-    {"label":"BCP · Hipotecario Compartido","url":"https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido"},
-    {"label":"BCP · Hipotecario Joven con fiador","url":"https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario"},
-    {"label":"Interbank · Hipotecario Dúo","url":"https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo"},
-    {"label":"BBVA · Crédito Hipotecario","url":"https://www.bbva.pe/personas/productos/prestamos/credito-hipotecario/hipotecario-bbva.html"},
-    {"label":"SBS · Crédito hipotecario para vivienda","url":"https://www.sbs.gob.pe/usuarios/aprende-con-la-sbs/credito-hipotecario-para-vivienda"},
-    {"label":"Adondevivir · Pueblo Libre 4 dormitorios","url":"https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html"},
-    {"label":"Nexo Inmobiliario · Magdalena 3 dormitorios","url":"https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios"}
+    {
+      "label": "Scotiabank · Crédito Hipotecario / Familiar",
+      "url": "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"
+    },
+    {
+      "label": "BCP · Hipotecario Ahorro Local",
+      "url": "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp"
+    },
+    {
+      "label": "Scotiabank · Plan Ahorro Hipotecario",
+      "url": "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario"
+    },
+    {
+      "label": "BCP · Hipotecario Compartido",
+      "url": "https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido"
+    },
+    {
+      "label": "BCP · Hipotecario Joven con fiador",
+      "url": "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario"
+    },
+    {
+      "label": "Interbank · Hipotecario Dúo",
+      "url": "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo"
+    },
+    {
+      "label": "BBVA · Crédito Hipotecario",
+      "url": "https://www.bbva.pe/personas/productos/prestamos/credito-hipotecario/hipotecario-bbva.html"
+    },
+    {
+      "label": "SBS · Crédito hipotecario para vivienda",
+      "url": "https://www.sbs.gob.pe/usuarios/aprende-con-la-sbs/credito-hipotecario-para-vivienda"
+    },
+    {
+      "label": "Adondevivir · Pueblo Libre 4 dormitorios",
+      "url": "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html"
+    },
+    {
+      "label": "Nexo Inmobiliario · Magdalena 3 dormitorios",
+      "url": "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios"
+    }
   ],
   "junta": {
     "weekly_per_person": 200,
@@ -155,5 +290,7 @@
       "turn_bry": 1,
       "turn_aunt": 2
     }
-  }
+  },
+  "auto_properties": [],
+  "source_changes": []
 }

@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-08-13T13:43:10+00:00",
+  "sources": {
+    "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
+      "ok": true,
+      "status": 200,
+      "hash": "12b0f29fbde1e4c8ab5d95d96618e2159bb2f7c236949106a2d2bb6b28c750f6"
+    },
+    "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
+      "ok": true,
+      "status": 200,
+      "hash": "f403c438d7941793e6154c2123b1232281c04db21a0315df049439cf78d561e4"
+    },
+    "https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido": {
+      "ok": true,
+      "status": 200,
+      "hash": "15e8eac81842c801bf7014a30a7c1a86116f9954e454302eca402b174677e4c3"
+    },
+    "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario": {
+      "ok": true,
+      "status": 200,
+      "hash": "4a91409b4153c55d6ea1f0b8174ca08a81103581d8a8f3d322eefede804e55a5"
+    },
+    "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo": {
+      "ok": true,
+      "status": 200,
+      "hash": "8dc1b8b5a8b19a01e123004a4cf8b1a11d742f5cfcb5b24c7a22ac2f327248d3"
+    },
+    "https://www.bbva.pe/personas/productos/prestamos/credito-hipotecario/hipotecario-bbva.html": {
+      "ok": false,
+      "status": null,
+      "hash": null,
+      "error": "403 Client Error: Forbidden for url: https://www.bbva.pe/personas/productos/prestamos/credito-hipotecario/hipotecario-bbva.html"
+    },
+    "https://www.sbs.gob.pe/usuarios/aprende-con-la-sbs/credito-hipotecario-para-vivienda": {
+      "ok": true,
+      "status": 200,
+      "hash": "aeeebbd9ad5f30b92e8e69537bb6ffea0c06a001afbc0d20db1d27ab6a00c9c6"
+    },
+    "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
+      "ok": true,
+      "status": 200,
+      "hash": "7735e769aeec250fa0d61361315fc870ed24e2c61b9dbe8ee5b72d45e5752ae5"
+    },
+    "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
+      "ok": true,
+      "status": 200,
+      "hash": "c85bb452546d272ccc38a7869b265539f61f7cd57a8601ff8f3e782796a3a494"
+    }
+  },
+  "changed_sources": [],
+  "auto_candidates_found": 0
+}
