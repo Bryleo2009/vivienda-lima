@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-14T13:37:50+00:00",
+  "checked_at": "2026-08-15T12:56:20+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -40,7 +40,7 @@
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
       "ok": true,
       "status": 200,
-      "hash": "3044d09746f81e6e85ee077a16e0d6db3e78c39548c1bd8cb46f357dc6519878"
+      "hash": "aa678fc97291252347348a17ecef0cc211ac612902ccda2d96691b15ba99808f"
     },
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
@@ -49,9 +49,6 @@
     }
   },
   "changed_sources": [
-    "BCP · Hipotecario Ahorro Local",
-    "BCP · Hipotecario Compartido",
-    "BCP · Hipotecario Joven con fiador",
     "Adondevivir · Pueblo Libre 4 dormitorios"
   ],
   "auto_candidates_found": 0
