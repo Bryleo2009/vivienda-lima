@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-20T13:08:51+00:00",
+  "checked_at": "2026-08-21T13:08:35+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -40,7 +40,7 @@
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
       "ok": true,
       "status": 200,
-      "hash": "b57992fd721f6e2b13f0ca433ccab4c9278c57135813fca937c4021dafb7652a"
+      "hash": "97ae0551ccaae87c59305f0b40f76c48e27c7569c87f955b6ee1f636986536f3"
     },
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
