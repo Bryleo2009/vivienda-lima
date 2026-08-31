@@ -1,5 +1,5 @@
 {
-  "updated_at": "30/08/2026",
+  "updated_at": "31/08/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -293,6 +293,8 @@
   },
   "auto_properties": [],
   "source_changes": [
+    "BCP · Hipotecario Ahorro Local",
+    "BCP · Hipotecario Compartido",
     "BCP · Hipotecario Joven con fiador",
     "Adondevivir · Pueblo Libre 4 dormitorios"
   ]
