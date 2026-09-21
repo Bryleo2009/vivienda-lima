@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-20T16:00:34+00:00",
+  "checked_at": "2026-09-21T18:11:54+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -19,7 +19,7 @@
     "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario": {
       "ok": true,
       "status": 200,
-      "hash": "74a2c6bee73ddbf2c6668bebda869ec34a759e6adaeb67d5178125708045725f"
+      "hash": "624ef8e446362dd03a7eb9156b3acbea4688c9a7e76f633439ad0a1f00c7032e"
     },
     "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo": {
       "ok": true,
@@ -40,7 +40,7 @@
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
       "ok": true,
       "status": 200,
-      "hash": "f2bae3d59863877c892f035211c539b2dc526ab672960f3203d294b95a97a4f7"
+      "hash": "e22b98551f057a7a731cbd03530d896cdeabf049acb2b56c26ef743aea366fa6"
     },
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
