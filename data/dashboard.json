@@ -1,5 +1,5 @@
 {
-  "updated_at": "21/09/2026",
+  "updated_at": "22/09/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -293,7 +293,9 @@
   },
   "auto_properties": [],
   "source_changes": [
-    "BCP · Hipotecario Joven con fiador",
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "BCP · Hipotecario Ahorro Local",
+    "Scotiabank · Plan Ahorro Hipotecario",
     "Adondevivir · Pueblo Libre 4 dormitorios"
   ]
 }
