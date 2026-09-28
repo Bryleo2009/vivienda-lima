@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-27T16:55:21+00:00",
+  "checked_at": "2026-09-28T19:39:00+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -9,17 +9,17 @@
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
       "status": 200,
-      "hash": "cff49be4c89f09c126f51c7b646c79e440c0bc70860c72d7325744eea4a524e3"
+      "hash": "f7369580f259ec769625e0a764de75d9238ebe60100b4863cfe925e19a95d19b"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido": {
       "ok": true,
       "status": 200,
-      "hash": "8381673d21ab46599bfadb72b8c1954d9e968e426d039a083a617291d70e5013"
+      "hash": "b169b51399db4cc4496ed9ed4f9bdc58e6604d1642ec1a874d22f6e6f56752ec"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario": {
       "ok": true,
       "status": 200,
-      "hash": "9b714e1a6cbb46e7737ee19f32520e722e51d9d69dbd700359f0d5225659be46"
+      "hash": "efef0ee3c648dc492eb5829113752e5828dbde54d9558e8e6abc5784e1df12ea"
     },
     "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo": {
       "ok": true,
@@ -40,17 +40,20 @@
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
       "ok": true,
       "status": 200,
-      "hash": "fc5777819ff4f883f1d88bb8688c92cceaf2929be00e01166a00eb18777ef373"
+      "hash": "1120069ecd584d643c8b6c02c25213a5a9f4a8ecc3d669d2cacd619e85f4ffb9"
     },
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
       "status": 200,
-      "hash": "3a78d622cbe5226bf63791b92ca85b29cd4c1d4cf8210b3c5f1c849a2be523b5"
+      "hash": "8a0c6a005ef61282a86f664626936254a99f7826aaf6b1c07c2ee9076e251371"
     }
   },
   "changed_sources": [
     "BCP · Hipotecario Ahorro Local",
-    "Adondevivir · Pueblo Libre 4 dormitorios"
+    "BCP · Hipotecario Compartido",
+    "BCP · Hipotecario Joven con fiador",
+    "Adondevivir · Pueblo Libre 4 dormitorios",
+    "Nexo Inmobiliario · Magdalena 3 dormitorios"
   ],
   "auto_candidates_found": 0
 }
