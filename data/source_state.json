@@ -1,25 +1,25 @@
 {
-  "checked_at": "2026-10-11T17:40:04+00:00",
+  "checked_at": "2026-10-12T21:14:41+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
       "status": 200,
-      "hash": "f19511f32600a1a0aac3cfb7229d30fd36f77b2ed2bbe33d63ceddf4e31f116d"
+      "hash": "590175b6e17f5995368510370ab063f036250b885680d3e54e7ff7e4e5f13828"
     },
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
       "status": 200,
-      "hash": "cb3e7957aa7bc558b281cdb14c4f9ae3f8e6a7b1a789b8043e106359eb214da6"
+      "hash": "904b9aeb802f00b2cad28fa56fb99426debc006522e039771494a72821288c9f"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido": {
       "ok": true,
       "status": 200,
-      "hash": "062e371211b05925995dba19ce40c3abb00fb6d0d46c63b071d30018a185c7fa"
+      "hash": "757d67564265cc4410cf86ed28d9ee4d77c82730e7e23acb528d62dd3aa71963"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario": {
       "ok": true,
       "status": 200,
-      "hash": "778e05ea49931c3d60172bd3e56c69ff63690efece8477d19535cafaf85f35a6"
+      "hash": "ce56120ecbc36480d97063aa535881b56b5fe48295d096a72fabd9399106a1bc"
     },
     "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo": {
       "ok": true,
@@ -40,7 +40,7 @@
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
       "ok": true,
       "status": 200,
-      "hash": "b02687ffa9ebe8aecd39134c77d6dea3c7b9513fe11a3fb7deb551cc10ea4c0d"
+      "hash": "a89e4d10ba56c325189263639aa97687d2a9dc7f4a731b8eaef514d9030c5972"
     },
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
@@ -49,6 +49,11 @@
     }
   },
   "changed_sources": [
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "BCP · Hipotecario Ahorro Local",
+    "Scotiabank · Plan Ahorro Hipotecario",
+    "BCP · Hipotecario Compartido",
+    "BCP · Hipotecario Joven con fiador",
     "Adondevivir · Pueblo Libre 4 dormitorios"
   ],
   "auto_candidates_found": 0
