@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12T21:14:41+00:00",
+  "checked_at": "2026-10-13T19:13:27+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -9,17 +9,17 @@
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
       "status": 200,
-      "hash": "904b9aeb802f00b2cad28fa56fb99426debc006522e039771494a72821288c9f"
+      "hash": "65ca051c4962afd69944dbddb0e3db4f3ec1866546683eb5ae44c74ba8e3fc40"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido": {
       "ok": true,
       "status": 200,
-      "hash": "757d67564265cc4410cf86ed28d9ee4d77c82730e7e23acb528d62dd3aa71963"
+      "hash": "074deaba3e17f026258e9322aa6e0e1dac7041e1adbbc32025e3e47b8e46a777"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario": {
       "ok": true,
       "status": 200,
-      "hash": "ce56120ecbc36480d97063aa535881b56b5fe48295d096a72fabd9399106a1bc"
+      "hash": "12da692f80f78dcf723979178d65f80451db7246ca4d3ee557d37b833ecb6900"
     },
     "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo": {
       "ok": true,
@@ -40,7 +40,7 @@
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
       "ok": true,
       "status": 200,
-      "hash": "a89e4d10ba56c325189263639aa97687d2a9dc7f4a731b8eaef514d9030c5972"
+      "hash": "621e3a974f1b8aa65c275b5b9a8700d075e8d6dc981cc643fd83875e8a9a738f"
     },
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
@@ -49,9 +49,7 @@
     }
   },
   "changed_sources": [
-    "Scotiabank · Crédito Hipotecario / Familiar",
     "BCP · Hipotecario Ahorro Local",
-    "Scotiabank · Plan Ahorro Hipotecario",
     "BCP · Hipotecario Compartido",
     "BCP · Hipotecario Joven con fiador",
     "Adondevivir · Pueblo Libre 4 dormitorios"
