@@ -1,5 +1,5 @@
 {
-  "updated_at": "28/10/2026",
+  "updated_at": "29/10/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -293,6 +293,8 @@
   },
   "auto_properties": [],
   "source_changes": [
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "Scotiabank · Plan Ahorro Hipotecario",
     "Adondevivir · Pueblo Libre 4 dormitorios"
   ]
 }
