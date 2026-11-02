@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-01T17:55:01+00:00",
+  "checked_at": "2026-11-02T21:40:51+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -9,17 +9,17 @@
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
       "status": 200,
-      "hash": "d0578568629e9835bc73a770c95cdd57b8e2af774f3e7f7295e7428e7354591f"
+      "hash": "d64ee8164df8cac430c7e7698ca221e9a59123cfff12b22dabaaf66ebd80e7cc"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/hipotecario-compartido": {
       "ok": true,
       "status": 200,
-      "hash": "047b10ae10472a4a54bfb31ef0a0f32b43921d9bbe56315896f2c249b2a3ef28"
+      "hash": "703a80437abc3ea49c661303ec2467cd738c9b88d74574561fc492922b614b62"
     },
     "https://www.viabcp.com/creditos/credito-hipotecario/fiador-solidario": {
       "ok": true,
       "status": 200,
-      "hash": "fe1d8fa5ea4b57ca20e8629ee8c38df570ccf7d8fd75dd0df238da6aa00c1d4c"
+      "hash": "bea2631e8a18e8c3ec713454328a9883dd26e5a4715b8da8cfa48f6ca26c8df6"
     },
     "https://interbank.pe/creditos/creditos-hipotecarios/hipotecario-duo": {
       "ok": true,
@@ -38,9 +38,10 @@
       "hash": "aeeebbd9ad5f30b92e8e69537bb6ffea0c06a001afbc0d20db1d27ab6a00c9c6"
     },
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
-      "ok": true,
-      "status": 200,
-      "hash": "96b34ab086e3903dd67fb6e95f4e745503ea9689a04a65af3b2b58501a4bbf85"
+      "ok": false,
+      "status": null,
+      "hash": null,
+      "error": "403 Client Error: Forbidden for url: https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html"
     },
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
@@ -49,7 +50,9 @@
     }
   },
   "changed_sources": [
-    "Adondevivir · Pueblo Libre 4 dormitorios"
+    "BCP · Hipotecario Ahorro Local",
+    "BCP · Hipotecario Compartido",
+    "BCP · Hipotecario Joven con fiador"
   ],
   "auto_candidates_found": 0
 }
