@@ -1,5 +1,5 @@
 {
-  "updated_at": "02/11/2026",
+  "updated_at": "03/11/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -293,8 +293,7 @@
   },
   "auto_properties": [],
   "source_changes": [
-    "BCP · Hipotecario Ahorro Local",
-    "BCP · Hipotecario Compartido",
-    "BCP · Hipotecario Joven con fiador"
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "Scotiabank · Plan Ahorro Hipotecario"
   ]
 }

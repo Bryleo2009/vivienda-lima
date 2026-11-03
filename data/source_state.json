@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-02T21:40:51+00:00",
+  "checked_at": "2026-11-03T19:27:25+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
       "status": 200,
-      "hash": "172860662e4f4ca8cbfc0d604ba724c27a15787bedc1fee08e70baf0e5904ad4"
+      "hash": "fc6fc0deed012ab5a00e355dbbf0a65db4e08c28a726e1dc42c986e18d99dc0c"
     },
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
@@ -50,9 +50,8 @@
     }
   },
   "changed_sources": [
-    "BCP · Hipotecario Ahorro Local",
-    "BCP · Hipotecario Compartido",
-    "BCP · Hipotecario Joven con fiador"
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "Scotiabank · Plan Ahorro Hipotecario"
   ],
   "auto_candidates_found": 0
 }
