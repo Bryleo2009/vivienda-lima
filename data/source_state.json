@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T19:42:15+00:00",
+  "checked_at": "2026-11-05T19:53:25+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -49,9 +49,6 @@
       "hash": "edf5bb355a733cdffce6ed775ff5d70d338fb7e03bbadb608cd5bdc1e09b2596"
     }
   },
-  "changed_sources": [
-    "Scotiabank · Crédito Hipotecario / Familiar",
-    "Scotiabank · Plan Ahorro Hipotecario"
-  ],
+  "changed_sources": [],
   "auto_candidates_found": 0
 }
