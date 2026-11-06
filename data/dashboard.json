@@ -1,5 +1,5 @@
 {
-  "updated_at": "05/11/2026",
+  "updated_at": "06/11/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -292,5 +292,7 @@
     }
   },
   "auto_properties": [],
-  "source_changes": []
+  "source_changes": [
+    "Nexo Inmobiliario · Magdalena 3 dormitorios"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T19:53:25+00:00",
+  "checked_at": "2026-11-06T19:18:55+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -46,9 +46,11 @@
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
       "status": 200,
-      "hash": "edf5bb355a733cdffce6ed775ff5d70d338fb7e03bbadb608cd5bdc1e09b2596"
+      "hash": "786d815c14a028d58eb5025dbcc8003ee5f00ee4dc554e380af2bb6b65c7540b"
     }
   },
-  "changed_sources": [],
+  "changed_sources": [
+    "Nexo Inmobiliario · Magdalena 3 dormitorios"
+  ],
   "auto_candidates_found": 0
 }
