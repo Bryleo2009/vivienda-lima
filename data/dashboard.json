@@ -1,5 +1,5 @@
 {
-  "updated_at": "07/11/2026",
+  "updated_at": "08/11/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -292,8 +292,5 @@
     }
   },
   "auto_properties": [],
-  "source_changes": [
-    "SBS · Crédito hipotecario para vivienda",
-    "Nexo Inmobiliario · Magdalena 3 dormitorios"
-  ]
+  "source_changes": []
 }

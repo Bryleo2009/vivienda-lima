@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T17:43:36+00:00",
+  "checked_at": "2026-11-08T17:53:58+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -49,9 +49,6 @@
       "hash": "cd9656a6524f1beb6a2b685b8957a1a4ad19cbb958f9c3e062090f8bddcc6c1c"
     }
   },
-  "changed_sources": [
-    "SBS · Crédito hipotecario para vivienda",
-    "Nexo Inmobiliario · Magdalena 3 dormitorios"
-  ],
+  "changed_sources": [],
   "auto_candidates_found": 0
 }
