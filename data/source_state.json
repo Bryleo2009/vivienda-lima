@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-09T22:16:20+00:00",
+  "checked_at": "2026-11-10T19:40:21+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
       "status": 200,
-      "hash": "e723adc158aa76c22365fe04dc7f9f4cd5eed770dc0260f3d7f7154ce7ec12b3"
+      "hash": "8ef8bbbe22df371226e2b1fd2183906e318ec83f52300bf89e6b2d8fbdf689cf"
     },
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
@@ -49,6 +49,9 @@
       "hash": "cd9656a6524f1beb6a2b685b8957a1a4ad19cbb958f9c3e062090f8bddcc6c1c"
     }
   },
-  "changed_sources": [],
+  "changed_sources": [
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "Scotiabank · Plan Ahorro Hipotecario"
+  ],
   "auto_candidates_found": 0
 }
