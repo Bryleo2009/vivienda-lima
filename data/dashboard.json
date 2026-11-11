@@ -1,5 +1,5 @@
 {
-  "updated_at": "10/11/2026",
+  "updated_at": "11/11/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -292,8 +292,5 @@
     }
   },
   "auto_properties": [],
-  "source_changes": [
-    "Scotiabank · Crédito Hipotecario / Familiar",
-    "Scotiabank · Plan Ahorro Hipotecario"
-  ]
+  "source_changes": []
 }
