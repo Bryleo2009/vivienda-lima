@@ -1,11 +1,10 @@
 {
-  "checked_at": "2026-11-12T19:51:41+00:00",
+  "checked_at": "2026-11-13T19:36:24+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
-      "ok": false,
-      "status": null,
-      "hash": null,
-      "error": "HTTPSConnectionPool(host='www.scotiabank.com.pe', port=443): Read timed out. (read timeout=25)"
+      "ok": true,
+      "status": 200,
+      "hash": "8ef8bbbe22df371226e2b1fd2183906e318ec83f52300bf89e6b2d8fbdf689cf"
     },
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
