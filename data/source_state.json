@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-17T20:49:47+00:00",
+  "checked_at": "2026-11-18T20:25:55+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
       "status": 200,
-      "hash": "8ef8bbbe22df371226e2b1fd2183906e318ec83f52300bf89e6b2d8fbdf689cf"
+      "hash": "5ccb5e8f18b6a1bc6f17289d55eed41cb4191bd01ad3482688294a4525b73f2a"
     },
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
@@ -50,7 +50,8 @@
     }
   },
   "changed_sources": [
-    "Nexo Inmobiliario · Magdalena 3 dormitorios"
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "Scotiabank · Plan Ahorro Hipotecario"
   ],
   "auto_candidates_found": 0
 }
