@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-22T19:30:50+00:00",
+  "checked_at": "2026-11-23T23:48:34+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
       "status": 200,
-      "hash": "5ccb5e8f18b6a1bc6f17289d55eed41cb4191bd01ad3482688294a4525b73f2a"
+      "hash": "842f3072f9f72283cb33f99bc8061e94a0e39d8ec9e46731f5f3a4c321c3c2c9"
     },
     "https://www.viabcp.com/creditos/bmo-credito-hipotecario/ahorro-local-fondeo-bcp": {
       "ok": true,
@@ -46,9 +46,13 @@
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
       "status": 200,
-      "hash": "bae43c423d66907b0f1e144cce4de6e9e353877688d01556c1d4dba2bf619b4f"
+      "hash": "5a160fb66966ad323736db48e9f5109894385ba107a149229741f4f32a403a81"
     }
   },
-  "changed_sources": [],
+  "changed_sources": [
+    "Scotiabank · Crédito Hipotecario / Familiar",
+    "Scotiabank · Plan Ahorro Hipotecario",
+    "Nexo Inmobiliario · Magdalena 3 dormitorios"
+  ],
   "auto_candidates_found": 0
 }
