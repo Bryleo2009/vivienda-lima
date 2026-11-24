@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T23:48:34+00:00",
+  "checked_at": "2026-11-24T22:20:30+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -49,10 +49,6 @@
       "hash": "5a160fb66966ad323736db48e9f5109894385ba107a149229741f4f32a403a81"
     }
   },
-  "changed_sources": [
-    "Scotiabank · Crédito Hipotecario / Familiar",
-    "Scotiabank · Plan Ahorro Hipotecario",
-    "Nexo Inmobiliario · Magdalena 3 dormitorios"
-  ],
+  "changed_sources": [],
   "auto_candidates_found": 0
 }

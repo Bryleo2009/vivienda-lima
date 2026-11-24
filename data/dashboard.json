@@ -1,5 +1,5 @@
 {
-  "updated_at": "23/11/2026",
+  "updated_at": "24/11/2026",
   "profile": {
     "your_income": 4000,
     "current_savings": 20000,
@@ -292,9 +292,5 @@
     }
   },
   "auto_properties": [],
-  "source_changes": [
-    "Scotiabank · Crédito Hipotecario / Familiar",
-    "Scotiabank · Plan Ahorro Hipotecario",
-    "Nexo Inmobiliario · Magdalena 3 dormitorios"
-  ]
+  "source_changes": []
 }
