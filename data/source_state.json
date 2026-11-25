@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-24T22:20:30+00:00",
+  "checked_at": "2026-11-25T21:37:08+00:00",
   "sources": {
     "https://www.scotiabank.com.pe/Personas/Prestamos/Creditos/Hipotecario": {
       "ok": true,
@@ -35,7 +35,7 @@
     "https://www.sbs.gob.pe/usuarios/aprende-con-la-sbs/credito-hipotecario-para-vivienda": {
       "ok": true,
       "status": 200,
-      "hash": "5664f57ad1e325c2b9110e269cf284a69a609505749168d6a36757cfece6bfb2"
+      "hash": "f83430517a293abf704efee9143482f5ddb6c837d6b1eaed50719326e7d2d077"
     },
     "https://www.adondevivir.com/departamentos-en-venta-en-pueblo-libre-con-4-dormitorios.html": {
       "ok": false,
@@ -46,9 +46,12 @@
     "https://nexoinmobiliario.pe/departamentos/magdalena-del-mar-3-dormitorios": {
       "ok": true,
       "status": 200,
-      "hash": "5a160fb66966ad323736db48e9f5109894385ba107a149229741f4f32a403a81"
+      "hash": "bae43c423d66907b0f1e144cce4de6e9e353877688d01556c1d4dba2bf619b4f"
     }
   },
-  "changed_sources": [],
+  "changed_sources": [
+    "SBS · Crédito hipotecario para vivienda",
+    "Nexo Inmobiliario · Magdalena 3 dormitorios"
+  ],
   "auto_candidates_found": 0
 }
